@@ -1,11 +1,11 @@
 {
-  "name": "team-project-filmoteka",
+  "name": "js-groups-project-filmoteka",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://imvladislav.github.io/team-project-filmoteka/",
+  "homepage": "https://vladislavzaver91.github.io/JS-groups-project-Filmoteka/",
   "scripts": {
     "start": "parcel src/*.html/",
-    "build": "parcel build src/*.html --public-url /team-project-filmoteka/"
+    "build": "parcel build src/*.html --public-url /JS-groups-project-Filmoteka/"
   },
   "repository": {
     "type": "git",
