@@ -6,7 +6,6 @@ import { posterСheck } from './posterCheck';
 import { options } from '../pagination';
 import { spinnerPlay, spinnerStop } from '../spinner';
 import { spinnerPlay, spinnerStop } from '../spinner';
-import warship from '../../images/warship.jpg';
 import { makeGenres } from './makeGenres';
 import { makeDate } from './makeReleaseDate';
 
@@ -36,10 +35,6 @@ export function murkupGalleryOnPageLoading(movies) {
   }
 
   serverApi.setPage(1);
-
-  if (refs.langValue.value === 'ru') {
-    return (refs.gallery.innerHTML = `<li class="warship"><img src="${warship}" /></li>`);
-  }
 
   const moviesMurkup = movies
 
